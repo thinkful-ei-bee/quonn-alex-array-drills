@@ -1,3 +1,6 @@
+"use strict";
+
+/* Problem #1 */
 function maxNum(arr) {
   let max = arr[0];
   let i = 1;
@@ -10,6 +13,7 @@ function maxNum(arr) {
   return max;
 }
 
+/* Problem #2 */
 function minNum(arr) {
   let min = arr[0];
   let j = 1;
@@ -22,6 +26,7 @@ function minNum(arr) {
   return min;
 }
 
+/* Problem #3 */
 function avg(arr) {
   let avg = 0;
   arr.forEach(function(x) {
